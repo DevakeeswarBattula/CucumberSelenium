@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25746" started-at="2019-04-23T09:26:25Z" finished-at="2019-04-23T09:26:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25746" started-at="2019-04-23T09:26:25Z" finished-at="2019-04-23T09:26:51Z">
+      <class name="com.tests.OnlineShoppingTest">
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="startReportBeforeTest" is-config="true" duration-ms="267" started-at="2019-04-23T09:26:25Z" finished-at="2019-04-23T09:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="beforeClass" is-config="true" duration-ms="6683" started-at="2019-04-23T09:26:26Z" finished-at="2019-04-23T09:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="testRegistration" duration-ms="4799" started-at="2019-04-23T09:26:32Z" finished-at="2019-04-23T09:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="afterMethod" is-config="true" duration-ms="3" started-at="2019-04-23T09:26:37Z" finished-at="2019-04-23T09:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=OnlineShoppingTest.testRegistration()[pri:1, instance:com.tests.OnlineShoppingTest@31d7b7bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:2, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="testLogin" duration-ms="6465" started-at="2019-04-23T09:26:37Z" data-provider="dp1" finished-at="2019-04-23T09:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devabattu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deva1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-23T09:26:44Z" finished-at="2019-04-23T09:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=OnlineShoppingTest.testLogin(java.lang.String, java.lang.String)[pri:2, instance:com.tests.OnlineShoppingTest@31d7b7bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="testCart" duration-ms="4804" started-at="2019-04-23T09:26:44Z" finished-at="2019-04-23T09:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-23T09:26:48Z" finished-at="2019-04-23T09:26:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=OnlineShoppingTest.testCart()[pri:3, instance:com.tests.OnlineShoppingTest@31d7b7bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="testPayment" duration-ms="2014" started-at="2019-04-23T09:26:48Z" finished-at="2019-04-23T09:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-23T09:26:50Z" finished-at="2019-04-23T09:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=OnlineShoppingTest.testPayment()[pri:4, instance:com.tests.OnlineShoppingTest@31d7b7bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="afterClass" is-config="true" duration-ms="669" started-at="2019-04-23T09:26:50Z" finished-at="2019-04-23T09:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="endReportAfterTest()[pri:0, instance:com.tests.OnlineShoppingTest@31d7b7bf]" name="endReportAfterTest" is-config="true" duration-ms="0" started-at="2019-04-23T09:26:51Z" finished-at="2019-04-23T09:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportAfterTest -->
+      </class> <!-- com.tests.OnlineShoppingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
